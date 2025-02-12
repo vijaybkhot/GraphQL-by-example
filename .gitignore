@@ -1,0 +1,63 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+.cache/
+
+# Next.js build files
+.next/
+out/
+
+# Babel cache
+.babelrc
+.babelrc.js
+.babelrc.json
+.babelrc.cjs
+.babelrc.mjs
+.babelcache.json
+
+# Webpack cache
+.cache/
+.nyc_output/
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# React-specific files
+public/
+*.lock
+
+# Apollo Client cache
+apollo-cache/
+graphql.schema.json
+
+# Misc
+*.swp
+*.swo
